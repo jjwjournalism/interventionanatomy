@@ -167,6 +167,18 @@ figure.banner{
 
 }
 
+#intervention3{
+  top: 50%;
+  left: 86%;
+
+}
+
+#intervention4{
+  top: 16%;
+  left: 14%;
+
+}
+
 
 .button-close{
   position: absolute;
@@ -210,10 +222,19 @@ figure.banner{
 .pop-in{
   text-align: center;
   color: white;
-  font-size: 1em;
+  font-size: .9em;
   font-family: sans-serif;
   margin: 10% auto;
-  max-width: 70%;
+  max-width: 85%;
   height: auto;
   opacity: 100%;
+}
+
+/* Pop-in styles for larger screens */
+@media screen and (min-width: 700px) {
+	.pop-in{
+		font-size: 1em;
+		max-width: 70%;
+	}
+
 }

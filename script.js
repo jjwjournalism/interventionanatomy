@@ -43,6 +43,17 @@ $(document).ready(function(){
 		onHotspotClickIntervention();
 		$("#intervention-pop-in").text("One of the most heartbreaking parts of the show is when the addict's loved ones give the addict their 'bottom lines'; that is, when they tell the addict that they'll cut off contact if the addict doesn't get into treatment. Espudo says that he stays away from bottom lines in his real-life interventions, opting instead for what he calls 'leverage.' 'I'm not going to brainwash your parents to not love you,' he said. 'I'm going to teach your parents how not to participate in your addiction.'");
 
+	})
+
+	$("#intervention3").click(function(){
+		onHotspotClickIntervention();
+		$("#intervention-pop-in").text("On the show, the interventionist presents the addict with one treatment option, which they must accept or face the consequences. According to the Association of Intervention Specialists, intervention teams should give three different treatment options.");
+	})	
+
+	$("#intervention4").click(function(){
+		onHotspotClickIntervention();
+		$("#intervention-pop-in").text("On the show, interventions invariably take place in generic hotel meeting room. In real life, an intervention might take place in the clinician's office or even someone's home.");
+
 	})	
 
 	$("#interventionX").click(function(){
