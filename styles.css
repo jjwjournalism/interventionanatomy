@@ -48,6 +48,8 @@ h1{
   /* Uses the margin trick to center */
   margin: 10px auto;
 
+  margin-bottom: 0px;
+
   text-align: center;
 
   font-weight: normal;
@@ -56,39 +58,38 @@ h1{
 h2{
 
   /* Limits the width of the headline so that it's more readable */
-  max-width: 750px;
 
-  /*Sets a smaller font size for h2s in the header section */
-  font-size: 18px;
+  font-size: 1.3em;
 
-  /* Uses the margin trick to center */
-  margin: 10px auto;
+  max-width: 640px;
 
-  /* Left-aligns the text */
-  text-align: center;
+  margin:10px auto;
+
+  margin-top: 0px;
+
+  margin-bottom: 20px;
+
+
+  font-weight: lighter;
+
 }
 
- /* Styles for the banner image and caption */
-figure.banner{
+h3{
 
-  /* This display allows the figcaption to align with the image */
-  display:inline-block;
+  font-size: 1.3em;
 
-  /* Uses the margin trick to center */
-  margin: 0px auto;
- }
+  max-width: 640px;
 
- figcaption.bannerCaption{
+  margin:10px auto;
 
-  /* Sets the font size for the caption text */
-  font-size: 12px;
-  
-  /* Centers the caption text */
-  text-align: right;
+  margin-top: 25px;
 
-  /* A margin-left of 20px helps the caption appear centered with the image even though it's technically a little shorter */
-  margin-left: 20px;
- }
+  text-align: center;
+
+
+}
+
+ 
 
 /* Styles for the final section */
 .last{
@@ -97,7 +98,20 @@ figure.banner{
   margin-bottom: 25px;
 }
 
+/* Caption styles */
 
+ .caption{
+
+  /* Sets the font size for the caption text */
+  font-size: 12px;
+  
+  /* Centers the caption text */
+  text-align: center;
+
+  max-width: 850px;
+
+  margin-top: 5px;
+ }
 
 
 /* Hotspot-related styles */
@@ -105,6 +119,11 @@ figure.banner{
 .hotimage{
 	width: 100%;
 	height: auto;
+}
+
+.image-plus-caption{
+  width: 100%;
+  height: auto;
 }
 
 .image-container{
@@ -120,6 +139,7 @@ figure.banner{
   .image-container{
       width: 60%;
   }
+
 
 }
 
